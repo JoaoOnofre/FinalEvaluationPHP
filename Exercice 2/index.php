@@ -39,6 +39,8 @@ if( isset($_GET['order']) && isset($_GET['column']) ) {
 	if( $_GET['column'] == 'lastname' ){ 
 		$order = ' ORDER BY lastname'; 
 	}
+	
+	// Here we have an assignment, not an equality
 	elseif( $_GET['column'] = 'firstname' ){ 
 		$order = ' ORDER BY firstname'; 
 	}
