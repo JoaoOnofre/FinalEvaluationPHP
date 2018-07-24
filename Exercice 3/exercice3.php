@@ -18,7 +18,7 @@ Note: you do not need to use AJAX or SQL to do this, only PHP.
  <?php
 
 $errors = array();
-
+// The validation logic is missing, the html is not needed for this exercise, was only php
 		if(isset($addVeihcle) && $addVeihcle == true) {
 
 			echo '<div class="col-md-6 col-md-offset-3">';
